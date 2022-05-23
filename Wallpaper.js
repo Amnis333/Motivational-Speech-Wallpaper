@@ -36,7 +36,7 @@ function motivationalSpeechWallpaper(object,domObj){
     let textH3 = document.createElement("h3");
     textH3.innerHTML = object.text;
     textH3.style.color = object.colorCode;
-    textH3.classList.add("textStyle");
+    textH3.classList.add("textStyle","text-light");
 
     textDiv.append(textH3);
     imgDiv.append(textDiv);
